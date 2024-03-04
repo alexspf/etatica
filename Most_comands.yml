@@ -5,13 +5,20 @@ pip uninstall nome_do_pacote
 pip list
 pip search termo_de_busca
 pip show nome_do_pacote
-
 (important)
 pip install --upgrade requests   
-
 pip install -r requirements.txt
 pip freeze > requirements.txt
 pip cache purge
+
+pip install --user nome_do_pacote
+pip install --user --upgrade nome_do_pacote
+pip install --user --upgrade --force-reinstall nome_do_pacote
+pip uninstall nome_do_pacote
+pip list
+pip search termo_de_busca
+pip show nome_do_pacote
+pip uninstall nome_do_pacote
 
 conda install nome_do_pacote
 conda update nome_do_pacote
@@ -22,7 +29,19 @@ conda create -n nome_do_ambiente python=versão_do_python
 conda activate nome_do_ambiente
 conda deactivate
 
+(important)
+conda install -c conda-forge nome_do_pacote
 
+git clone https://github.com/username/repository.git(clone repository)
+git add .
+git commit -m "comment"
+git push origin main
+git pull origin main
+git log(local)       + origin main (remote) + --all(all)
+git commit --amend -m "new message" (update last commit)
+git push --force origin main
+git push --set-upstream origin main(new branch)
+git push -u origin main(new branch)
 
 sudo dpkg --configure -a
 sudo apt update && sudo apt upgrade -y
@@ -35,3 +54,4 @@ sudo apt clean
 (script instalation)
 chmod +x install_script.sh
 ./install_script.sh
+
