@@ -51,6 +51,20 @@ sudo apt remove
 sudo apt autoremove --purge
 sudo apt clean
 
+tree (list directory) (need to install tree in apt)
+cd .   (son)
+cd ..  (dad)
+cd .files
+ls (list)
+mkdir (create)
+rm (remove)
+mv (move)
+cp (copy)
+touch (create empty file)
+nano (edit)
+clear
+
+
 (script instalation)
 chmod +x install_script.sh
 ./install_script.sh
