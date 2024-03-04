@@ -1,0 +1,37 @@
+pip install nome_do_pacote
+pip install --upgrade nome_do_pacote
+pip install --upgrade numpy==1.24.3
+pip uninstall nome_do_pacote
+pip list
+pip search termo_de_busca
+pip show nome_do_pacote
+
+(important)
+pip install --upgrade requests   
+
+pip install -r requirements.txt
+pip freeze > requirements.txt
+pip cache purge
+
+conda install nome_do_pacote
+conda update nome_do_pacote
+conda remove nome_do_pacote
+conda list
+conda info nome_do_pacote
+conda create -n nome_do_ambiente python=versão_do_python
+conda activate nome_do_ambiente
+conda deactivate
+
+
+
+sudo dpkg --configure -a
+sudo apt update && sudo apt upgrade -y
+sudo apt install
+sudo apt remove
+
+sudo apt autoremove --purge
+sudo apt clean
+
+(script instalation)
+chmod +x install_script.sh
+./install_script.sh
